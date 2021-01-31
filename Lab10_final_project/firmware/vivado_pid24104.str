@@ -1,0 +1,204 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 24104
+License: Customer
+
+Current time: 	Tue Mar 19 16:32:36 CET 2019
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 46 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Paolo
+User home directory: C:/Users/Paolo
+User working directory: C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware
+User country: 	IT
+User language: 	it
+User locale: 	it_IT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Paolo/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Paolo/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Paolo/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware/vivado.log
+Vivado journal file location: 	C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware/vivado.jou
+Engine tmp dir: 	C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware/.Xil/Vivado-24104-Dell-Paolo
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: C:\Android
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	161 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 466 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 42 MB (+41241kb) [00:00:06]
+// [Engine Memory]: 302 MB (+165321kb) [00:00:06]
+// TclEventType: START_GUI
+// [GUI Memory]: 56 MB (+13003kb) [00:00:57]
+// [Engine Memory]: 466 MB (+155625kb) [00:00:57]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1237ms to process. Increasing delay to 4000 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 466 MB. GUI used memory: 37 MB. Current time: 3/19/19 4:32:42 PM CET
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Paolo\Desktop\Lab10_final_project\Lab10_final_project\firmware\final_project.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware/final_project.xpr 
+// [Engine Memory]: 498 MB (+8966kb) [00:01:13]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// [Engine Memory]: 553 MB (+31630kb) [00:01:28]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+3536kb) [00:01:39]
+// Tcl Message: open_project C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware/final_project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/stefano/Desktop/final_project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 569 MB. GUI used memory: 40 MB. Current time: 3/19/19 4:33:20 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:42 ; elapsed = 00:00:34 . Memory (MB): peak = 741.730 ; gain = 73.977 
+// Project name: final_project; location: C:/Users/Paolo/Desktop/Lab10_final_project/Lab10_final_project/firmware; part: xc7a35tcsg324-1
+// WARNING: updateGUI() is taking  1348 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 765ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 583 MB (+2725kb) [00:01:48]
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 604ms to process. Increasing delay to 4000 ms.
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd)]", 2); // B (D, ck)
+// PAPropertyPanels.initPanels (top_level.vhd) elapsed time: 1s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 600 MB. GUI used memory: 41 MB. Current time: 3/19/19 4:33:56 PM CET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ffd(Behavioral) (ffd.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ffd(Behavioral) (ffd.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 67 MB (+1732kb) [00:02:25]
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), size_reg : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), size_reg : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 73 MB (+2338kb) [00:02:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), sq_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), sq_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), sq_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), sq_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), fir_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 9, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), fir_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 9, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), fir_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 9, false); // B (D, ck)
+// [GUI Memory]: 77 MB (+427kb) [00:02:59]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), fir_regs : ipbus_dpram(rtl) (ipbus_dpram.vhd)]", 9, false, false, false, false, false, true); // B (D, ck) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), flash_master : spi_master_flash(Behavioral) (spi_master_flash.vhd)]", 10); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), flash_master : spi_master_flash(Behavioral) (spi_master_flash.vhd)]", 10, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), flash_master : spi_master_flash(Behavioral) (spi_master_flash.vhd)]", 10, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [Engine Memory]: 612 MB (+406kb) [00:03:09]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), square_w : square_wave(Behavioral) (square_wave.vhd)]", 11, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), square_w : square_wave(Behavioral) (square_wave.vhd)]", 11, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), fir_dsp : fir(Behavioral) (fir.vhd)]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), fir_dsp : fir(Behavioral) (fir.vhd)]", 12, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 83 MB (+2165kb) [00:03:17]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ffd.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level.vhd", 1); // k (j, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 216ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 88 MB (+1112kb) [00:09:08]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1044 ms. Increasing delay to 3000 ms.
+// Elapsed time: 502 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_level(rtl) (top_level.vhd), flash_master : spi_master_flash(Behavioral) (spi_master_flash.vhd)]", 10); // B (D, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 665ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 42 MB. Current time: 3/19/19 5:29:02 PM CET
+// Elapsed time: 3241 seconds
+selectCodeEditor("spi_master_flash.vhd", 56, 178); // ce (w, ck)
+selectCodeEditor("spi_master_flash.vhd", 56, 178, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level.vhd", 1); // k (j, ck)
+// Elapsed time: 258 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1575 ms. Increasing delay to 4000 ms.
+// [GUI Memory]: 93 MB (+47kb) [01:18:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 41 MB. Current time: 3/19/19 5:59:03 PM CET
+// Elapsed time: 1682 seconds
+selectCodeEditor("spi_master_flash.vhd", 328, 227, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+// Elapsed time: 205 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fir.vhd", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fir.vhd", 6, false, true); // k (j, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ipbus_dpram.vhd", 3); // k (j, ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ipbus_dpram.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// [GUI Memory]: 98 MB (+631kb) [01:42:49]
+// Elapsed time: 72 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spi_master_flash.vhd", 4); // k (j, ck)
+selectCodeEditor("spi_master_flash.vhd", 1064, 209); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("spi_master_flash.vhd", 1163, 71); // ce (w, ck)
+// Elapsed time: 543 seconds
+selectCodeEditor("spi_master_flash.vhd", 1164, 371); // ce (w, ck)
+selectCodeEditor("spi_master_flash.vhd", 1046, 393); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 41 MB. Current time: 3/19/19 6:29:03 PM CET
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4271 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5993 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 45332 ms. Increasing delay to 7000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 6322ms to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4718 ms. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4038 ms. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7233398 ms. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 40 MB. Current time: 3/19/19 8:50:44 PM CET
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2212 ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 20031ms to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 26112ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 42 MB. Current time: 3/20/19 10:39:01 AM CET
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 39464ms to process. Increasing delay to 3000 ms.
